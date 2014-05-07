@@ -8,8 +8,7 @@ is full. Controls are available to pause, change speed, and restart. Changing th
 because if the javascript interval is too low, there isn't enough time for the speed to change. Or at least I can't get it 
 to work correctly anyhow.
 
-[Demo](http://amarriner.com/snake)
-
+[Demo](http://amarriner.com/snake)<br>
 [Demo Mirror](http://bulletriddenlich.com/snake)
 
 **Dependencies**
