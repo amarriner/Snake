@@ -29,12 +29,12 @@ $(document).ready(function() {
 var Timer = function() {
     
     var self = this;
-    self.interval;
-    self.snake_interval;
-    self.seconds = 1;
-    self.snakes = [];
-    self.size = 10;   // Pixel size of grid squares
-    self.step = 1;    // Initial speed
+    self.interval;       // Interval for timer
+    self.snake_interval; // Interval for snakes slithering, should be moved back into Snake object since I figured this out
+    self.seconds = 1;    // Elapsed seconds
+    self.snakes = [];    // Array of snakes
+    self.size = 10;      // Pixel size of grid squares
+    self.step = 100;     // Initial speed
     
     // Determine number of squares in the grid based on window size (or viewport size, rather)
     // Potentially useful to handle resizing events, as well, though that's not implemented
@@ -59,6 +59,7 @@ var Timer = function() {
         self.snakes.push(new Snake());
     }
     
+    // Make all the snakes move, should be moved back into Snake object
     self.slither_snakes = function() {
         for(var z = 0; z < NUM_SNAKES; z++) {
             if(! self.snakes[z].finished) {
@@ -67,6 +68,7 @@ var Timer = function() {
         }
     }
     
+    // Update the timer with elapsed time and stop when done
     self.update = function() {
         var hours   = Math.floor(self.seconds / 3600);
         var minutes = Math.floor((self.seconds - (hours * 3600)) / 60);
@@ -81,18 +83,21 @@ var Timer = function() {
     
         var num_finished = 0;
         for (var z = 0; z < NUM_SNAKES; z++) {
-            if (self.snakes[z].finished)
+            if (self.snakes[z].finished) {
                 num_finished++;
+            }
         }
         
-        if (num_finished == NUM_SNAKES)
+        if (num_finished >= NUM_SNAKES) {
             clearInterval(self.interval);
+        }
     }
 
     self.interval = setInterval(function() { self.update(); }, 1000);
-    self.interval = setInterval(function() { self.slither_snakes(); }, self.step);
+    self.snake_interval = setInterval(function() { self.slither_snakes(); }, self.step);
 }
 
+// Snake object
 var Snake = function() {
 
     var self = this;                           // Store this inside itself so setInterval() works correctly
