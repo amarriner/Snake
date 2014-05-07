@@ -2,17 +2,17 @@ body {
     font-family: Arial, Verdana, Helvetica;
     font-size: 10px;
     margin: 0;
-    padding: 0;
     overflow: hidden;
+    padding: 0;
 }
 
 #debug {
     background-color: #eee;
-    position: absolute;
-    top: 5px; 
     left: 5px;
+    top: 5px; 
     padding: 5px;
     z-index: 1000;
+    position: absolute;
     
     /* http://css-tricks.com/snippets/css/cross-browser-opacity/ */
     /* IE 8 */
@@ -28,20 +28,20 @@ body {
 }
 
 a.control, a.control:hover, a.control:visited, a.control:active {
-    float: left;
+    background-repeat: no-repeat;
     display: block;
+    float: left;
     height: 16px;
     width: 16px;
-    background-repeat: no-repeat;
 }
 
 a.down        { background-image: url(../images/control_rewind.png); }
 a.down_active { background-image: url(../images/control_rewind_blue.png); }
-a.up          { background-image: url(../images/control_fastforward.png); }
-a.up_active   { background-image: url(../images/control_fastforward_blue.png); }
 a.pause       { background-image: url(../images/control_pause_blue.png); }
 a.play        { background-image: url(../images/control_play_blue.png); }
 a.restart     { background-image: url(../images/control_repeat_blue.png); }
+a.up          { background-image: url(../images/control_fastforward.png); }
+a.up_active   { background-image: url(../images/control_fastforward_blue.png); }
 
 .square {
     background-color: #eee;

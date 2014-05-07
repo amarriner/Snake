@@ -1,16 +1,17 @@
-var size = 10;
-var numx, numy;
-var interval, timer_interval;
-var step = 100;
-var r = Math.ceil(Math.random() * 255);
-var g = Math.ceil(Math.random() * 255);
-var b = Math.ceil(Math.random() * 255);
-var x = -1, y = -1;
-var squares = [[]];
-var stack = [];
-var seconds = 1;
-var paused = false;
+var size = 10;                            // Pixel size of individual squares
+var numx, numy;                           // Number of squares horiztonally and vertically decided by window size
+var interval, timer_interval;             // Variables to keep track of timers via setInterval()
+var step = 100;                           // Initial speed
+var r = Math.ceil(Math.random() * 255);   // Random red
+var g = Math.ceil(Math.random() * 255);   // Random green
+var b = Math.ceil(Math.random() * 255);   // Random blue
+var x = -1, y = -1;                       // "Current" x,y
+var squares = [[]];                       // Grid of objects
+var stack = [];                           // Stack for maze algorithm
+var seconds = 1;                          // Total seconds elapsed (roughly)
+var paused = false;                       // Whether the snake is paused or not
 
+// Simple javascript "object" to store squares in the grid array
 function Square(xx, yy, red, green, blue) {
     this.x = xx;
     this.y = yy;
@@ -19,26 +20,38 @@ function Square(xx, yy, red, green, blue) {
     this.b = typeof blue !== 'undefined' ? blue : 255;
 }
 
+// Variable to ease in checking cardinal directions from a given square
 var dirs = [{x: 0, y: -1},
             {x: 0, y: 1},
             {x: 1, y: 0},
             {x: -1, y: 0}];
 
+// Runs when the DOM is fully loaded
 $(document).ready(function() {
-    $('#down').click(function() { set_speed(100); return false; });
-    $('#up').click(function() { set_speed(-100); return false; });
-    $('#pause').click(function() { pause(); return false; });
+
+    // Bind functions to clicks
+    $('#down').click(function()    { set_speed(100); return false; });
+    $('#up').click(function()      { set_speed(-100); return false; });
+    $('#pause').click(function()   { pause(); return false; });
     $('#restart').click(function() { restart(); return false; });
 
+    // Set up the grid
     build();
 });
 
+// This function sets up the grid at page load or when restarted
 function build() {
+
+    // Stop the timers if they're running
     clearInterval(interval);
+    clearInterval(timer_interval);
     
+    // Determine number of squares in the grid based on window size (or viewport size, rather)
+    // Potentially useful to handle resizing events, as well, though that's not implemented
     numx = Math.ceil($(window).width() / size);
     numy = Math.ceil($(window).height() / size);
         
+    // Initialize grid array and DIVs on the page
     for (var i = 0; i < numx; i++) {
         squares[i] = [];
         
@@ -48,8 +61,11 @@ function build() {
             $('body').append('<div id="' + i + '_' + j + '" class="square" style="top: ' + j * size + 'px; left: ' + i * size + 'px; position:absolute; background-color: white; z-index: 200px;"></div>');
         }
     }
+
+    // Set DIV height and width within the grid
     $('.square').css('height', size + 'px').css('width', size + 'px');
 
+    // Start the timers
     interval = setInterval('slither();', step);
     timer_interval = setInterval('timer();', 1000);
 }
@@ -61,6 +77,9 @@ function shuffle(o){ //v1.0
       return o;
 };
 
+// Alter the speed of the timers when paused
+// Max speed is 900ms
+// Min speed is 1ms
 function set_speed(new_speed) {
     if (paused) {
         step += new_speed;
@@ -74,6 +93,9 @@ function set_speed(new_speed) {
     }
 }
 
+// Pause or Unpause the timers
+// Probably should have a different name :/
+// Starts/stops the timers and updates the CSS class of the controls to align with the current state
 function pause() {
     if (paused) {
         interval = setInterval('slither();', step);
@@ -95,6 +117,8 @@ function pause() {
     }
 }
 
+// Start from scratch
+// Reset everything and run build() again
 function restart() {
     clearInterval(interval);
     clearInterval(timer_interval);
@@ -113,21 +137,29 @@ function restart() {
     build();
 }
 
+// Main timer to create the colors
 function slither() {
     var newx, newy;
     
+    // At the start x is -1 and y is -1 so get a random spot on the grid
     if (x == -1)
         x = Math.ceil(Math.random() * numx); 
 
     if (y == -1)
         y = Math.ceil(Math.random() * numy);
 
+    // Change the current square's background color to the current random color
     $('#' + x + '_' + y).animate({backgroundColor: 'rgb(' + r + ',' + g + ',' + b + ')'});
+
+    // Also update the square and push it onto the stack so we can backtrack to it later
     squares[x][y].r = r;
     squares[x][y].g = g;
     squares[x][y].b = b;
     stack.push(squares[x][y]);
 
+    // Attempt to find a neighbor in the cardinal directions whose color is white
+    // This should be rewritten to use the square object's values rather than the css property
+    // If we found an "empty" neighbor, that will be the next "current" x,y
     var found = false;
     var shuffled = shuffle(dirs);
     for(var k = 0; k < shuffled.length; k++) {
@@ -141,6 +173,9 @@ function slither() {
        
     }
     
+    // If no neighbor was found then we're at a dead end
+    // Begin popping squares off the stack until we find one who has an "empty" neighbor 
+    // If we pop all the squares off the stack then we're done
     while (! found) {
         if (stack.length > 0) {
             last = stack.pop();
@@ -160,6 +195,8 @@ function slither() {
                 }
             }
         }
+
+        // This is the done condition, there are no squares left in the stack
         else {
             found = true;
 
@@ -174,9 +211,11 @@ function slither() {
             paused = true;
         }
     }
-    
 }
 
+// This just updates the #timer DIV every second with the current elapsed time
+// This is not 100% accurate because of the way I'm using the two timers at 
+// different intervals, but it should be close enough
 function timer() {
     var hours = Math.floor(seconds / 3600);
     var minutes = Math.floor((seconds - (hours * 3600)) / 60);
