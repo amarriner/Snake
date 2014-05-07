@@ -127,7 +127,8 @@ function restart() {
     seconds = 1;
     $('#speed').html('9');
     $('#timer').html('00:00:00');
-    
+    $('#complete').html('');
+
     $('#up').addClass('up').removeClass('up_active');
     $('#down').addClass('down').removeClass('down_active');
     $('#pause').addClass('pause').removeClass('play');
