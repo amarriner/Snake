@@ -9,6 +9,7 @@ because if the javascript interval is too low, there isn't enough time for the s
 to work correctly anyhow.
 
 [Demo](http://amarriner.com/snake)
+
 [Demo Mirror](http://bulletriddenlich.com/snake)
 
 **Dependencies**
