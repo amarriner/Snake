@@ -39,12 +39,27 @@ $(document).ready(function() {
     build();
 });
 
+<<<<<<< HEAD
 // This function sets up the grid at page load or when restarted
 function build() {
 
     // Stop the timers if they're running
     clearInterval(interval);
     clearInterval(timer_interval);
+=======
+// This just updates the #timer DIV every second with the current elapsed time
+// This is not 100% accurate because of the way I'm using the two timers at 
+// different intervals, but it should be close enough
+var Timer = function() {
+    
+    var self = this;
+    self.interval;       // Interval for timer
+    self.snake_interval; // Interval for snakes slithering, should be moved back into Snake object since I figured this out
+    self.seconds = 1;    // Elapsed seconds
+    self.snakes = [];    // Array of snakes
+    self.size = 10;      // Pixel size of grid squares
+    self.step = 100;     // Initial speed
+>>>>>>> e200c36bf4bba79ff689021286b697c0e362e33e
     
     // Determine number of squares in the grid based on window size (or viewport size, rather)
     // Potentially useful to handle resizing events, as well, though that's not implemented
@@ -65,6 +80,7 @@ function build() {
     // Set DIV height and width within the grid
     $('.square').css('height', size + 'px').css('width', size + 'px');
 
+<<<<<<< HEAD
     // Start the timers
     interval = setInterval('slither();', step);
     timer_interval = setInterval('timer();', 1000);
@@ -85,10 +101,35 @@ function set_speed(new_speed) {
         step += new_speed;
         if (step <= 0)
             step = 1;
+=======
+    for (var z = 0; z < NUM_SNAKES; z++) {
+        self.snakes.push(new Snake());
+    }
+    
+    // Make all the snakes move, should be moved back into Snake object
+    self.slither_snakes = function() {
+        for(var z = 0; z < NUM_SNAKES; z++) {
+            if(! self.snakes[z].finished) {
+                self.snakes[z].slither();
+            }
+        }
+    }
+    
+    // Update the timer with elapsed time and stop when done
+    self.update = function() {
+        var hours   = Math.floor(self.seconds / 3600);
+        var minutes = Math.floor((self.seconds - (hours * 3600)) / 60);
+        var secs    = self.seconds - (hours * 3600) - (minutes * 60);
+    
+        hours = (hours < 10) ? '0' + hours : hours;
+        minutes = (minutes < 10) ? '0' + minutes : minutes;
+        secs = (secs < 10) ? '0' + secs : secs;
+>>>>>>> e200c36bf4bba79ff689021286b697c0e362e33e
     
         if (step >= 900)
             step = 900;
     
+<<<<<<< HEAD
         $('#speed').html(10 - parseInt(Math.floor(step / 100)));
     }
 }
@@ -114,9 +155,22 @@ function pause() {
         $('#down').removeClass('down').addClass('down_active');
         $('#pause').removeClass('pause').addClass('play');
         paused = true;
+=======
+        var num_finished = 0;
+        for (var z = 0; z < NUM_SNAKES; z++) {
+            if (self.snakes[z].finished) {
+                num_finished++;
+            }
+        }
+        
+        if (num_finished >= NUM_SNAKES) {
+            clearInterval(self.interval);
+        }
+>>>>>>> e200c36bf4bba79ff689021286b697c0e362e33e
     }
 }
 
+<<<<<<< HEAD
 // Start from scratch
 // Reset everything and run build() again
 function restart() {
@@ -141,6 +195,30 @@ function restart() {
 // Main timer to create the colors
 function slither() {
     var newx, newy;
+=======
+    self.interval = setInterval(function() { self.update(); }, 1000);
+    self.snake_interval = setInterval(function() { self.slither_snakes(); }, self.step);
+}
+
+// Snake object
+var Snake = function() {
+
+    var self = this;                           // Store this inside itself so setInterval() works correctly
+    self.finished = false;                     // Boolean denoting whether the snake is done moving or not
+    self.interval;                             // Variable to keep track of the timer via setInterval()
+    self.r = Math.ceil(Math.random() * 255);   // Random red
+    self.g = Math.ceil(Math.random() * 255);   // Random green
+    self.b = Math.ceil(Math.random() * 255);   // Random blue
+    self.x = -1, self.y = -1;                  // "Current" x,y
+    self.stack = [];                           // Stack for maze algorithm
+    self.count = 0;
+
+    // Variable to ease in checking cardinal directions from a given square
+    self.dirs = [{x:  0, y: -1},
+                 {x:  0, y:  1},
+                 {x:  1, y:  0},
+                 {x: -1, y:  0}];
+>>>>>>> e200c36bf4bba79ff689021286b697c0e362e33e
     
     // At the start x is -1 and y is -1 so get a random spot on the grid
     if (x == -1)
