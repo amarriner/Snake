@@ -8,7 +8,8 @@ is full. Controls are available to pause, change speed, and restart. Changing th
 because if the javascript interval is too low, there isn't enough time for the speed to change. Or at least I can't get it 
 to work correctly anyhow.
 
-[Demo](http://amarriner.com/snake)<br>
+[v1.1 Demo](http://amarriner.com/snake/v1.1)<br>
+[v2.0 Demo](http://amarriner.com/snake/v2.0)<br>
 
 **Dependencies**
  * [jQuery](http://jquery.com/)
