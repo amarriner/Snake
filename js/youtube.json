@@ -1,0 +1,1037 @@
+{
+ "kind": "youtube#searchListResponse",
+ "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/HU3lGZk8GLjxoXyHQXvlH1wnmAY\"",
+ "nextPageToken": "CDIQAA",
+ "pageInfo": {
+  "totalResults": 176,
+  "resultsPerPage": 50
+ },
+ "items": [
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/dc2u57iIv126-x7WHls5-GMfQeo\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Tnyk1xoQWJI"
+   },
+   "snippet": {
+    "publishedAt": "2009-09-04T23:34:47.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #1609: Tetris 'Linear Groove' [B-Type, A-Type (Korobeiniki)] by Benjamin Briggs",
+    "description": "DOWNLOAD IT FREE at OC ReMix! http://ocremix.org/remix/OCR01609/ ReMixer: Benjamin Briggs FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Tnyk1xoQWJI/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Tnyk1xoQWJI/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Tnyk1xoQWJI/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/eBB-IuQO8JX0SV8hUUpNPQ3yJK4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "nPjvWMExtnM"
+   },
+   "snippet": {
+    "publishedAt": "2010-03-19T21:42:09.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Serious Monkey Business: B-01 Bonus Bop (Token Tango, Bonus Lose, Bonus Win) [DKC2 / OC ReMix]",
+    "description": "ReMixers: Xenon Odyssey, The UArts \"Z\" Big Band Donkey Kong Country 2: Serious Monkey Business - http://dkc2.ocremix.org FREE at http://ocremix.org ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/nPjvWMExtnM/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/nPjvWMExtnM/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/nPjvWMExtnM/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/B-3LY4HFV0TG-CG6Aig7vWVNXAA\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "36_nIVkGy0w"
+   },
+   "snippet": {
+    "publishedAt": "2010-03-19T21:37:41.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Serious Monkey Business: B-02 Monkeys Disarm Their Kremlings (Crocodile Cacophony) [Instrumental]",
+    "description": "ReMixer: Nekofrog Donkey Kong Country 2: Serious Monkey Business - http://dkc2.ocremix.org FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/36_nIVkGy0w/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/36_nIVkGy0w/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/36_nIVkGy0w/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/jNw0lZUrAJ969TqMFIndGpJN7Co\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "twBKxdoJzK0"
+   },
+   "snippet": {
+    "publishedAt": "2011-07-26T15:55:58.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #2270: Legend of Zelda: Ocarina of Time 'Dark Shores of Hyrule' [Title Theme] by Jonah-B",
+    "description": "DOWNLOAD IT FREE at OC ReMix! http://ocremix.org/remix/OCR02270/ ReMixer: Jonah-B FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/twBKxdoJzK0/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/twBKxdoJzK0/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/twBKxdoJzK0/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/a2iODTpdiligCZQfxJ8ntWcMynY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "cDp0_qMCEFo"
+   },
+   "snippet": {
+    "publishedAt": "2009-06-17T09:33:02.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #1179: Final Fantasy VI 'Agony of Obscuration' [Shadow] by Danny Baranowsky",
+    "description": "DOWNLOAD IT FREE at OC ReMix! http://ocremix.org/remix/OCR01179/ ReMixer: Danny Baranowsky FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/cDp0_qMCEFo/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/cDp0_qMCEFo/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/cDp0_qMCEFo/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/hYpTLGLmPtm0KOkOZ6DvFXv7tSk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Akw-b0P4mKY"
+   },
+   "snippet": {
+    "publishedAt": "2009-07-05T20:40:11.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #1413: Tetris 'Piano Concerto in A minor' [A-Type (Korobeiniki), B-Type] by Jeremy Robson",
+    "description": "DOWNLOAD IT FREE at OC ReMix! http://ocremix.org/remix/OCR01413/ ReMixer: Jeremy Robson FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Akw-b0P4mKY/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Akw-b0P4mKY/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Akw-b0P4mKY/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/W9gLITYVqWoK1J5QSuRrVeWz3KQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "tKl0ticDUBs"
+   },
+   "snippet": {
+    "publishedAt": "2012-11-21T19:24:24.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #2534: Super Meat Boy 'Kind of Betus Blue' [Betus Blues] by Brent Kennedy",
+    "description": "DOWNLOAD IT FREE at OC ReMix! http://ocremix.org/remix/OCR02534/ ReMixer: Brent Kennedy FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/tKl0ticDUBs/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/tKl0ticDUBs/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/tKl0ticDUBs/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/PcAeYB2OXW1ooKMc9hl-3Iqwuis\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "_mrfGB8j4ng"
+   },
+   "snippet": {
+    "publishedAt": "2013-09-23T18:49:31.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #2747: Sonic CD (J) 'Time Traveller's Delight' [Stardust Speedway] by OverClocked Assembled",
+    "description": "DOWNLOAD IT FREE at OC ReMix! http://ocremix.org/remix/OCR02747/ ReMixers: OverClocked Assembled (Sir Jordanius, metaphist, begoma, DiGi Valentine, ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/_mrfGB8j4ng/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/_mrfGB8j4ng/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/_mrfGB8j4ng/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/2Ae_FP8CdSev9jF5zZRNacs5ihw\"",
+   "id": {
+    "kind": "youtube#playlist",
+    "playlistId": "PL71409717BB2670D8"
+   },
+   "snippet": {
+    "publishedAt": "2010-03-02T04:16:44.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Donkey Kong Country 2: Serious Monkey Business",
+    "description": "FREELY available at http://dkc2.ocremix.org More video game music ReMixes at http://ocremix.org.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/pP0nb5R3nwU/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/pP0nb5R3nwU/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/pP0nb5R3nwU/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/wRq0dz-e8CuicxHxX6kyhct4WiQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "OVbdk9_eXxU"
+   },
+   "snippet": {
+    "publishedAt": "2011-10-16T02:25:06.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "THE ANSWER: 05 'Shining Highway' (Shining, Autobahn) by Anosou [Armored Core / OC ReMix]",
+    "description": "THE ANSWER - Armored Core Tribute Album - : FREE at http://answer.ocremix.org ! ReMixer: Mattias Häggström Gerdt FREE at http://ocremix.org • SHIRTS ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/OVbdk9_eXxU/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/OVbdk9_eXxU/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/OVbdk9_eXxU/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/rRIKE-HSk_xM-FhaTD9DlCGk5ek\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "jH07dDQvx2g"
+   },
+   "snippet": {
+    "publishedAt": "2009-06-04T00:15:17.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #64: Tetris (NES) 'C Blachly' [Music - 2] by kobash & Charles Blachly",
+    "description": "ReMixers: Charles Blachly, kobash http://ocremix.org/remix/OCR00064/ FREE at http://ocremix.org • SHIRTS & HOODIES! http://ocremix.org/store/ • DONATE!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/jH07dDQvx2g/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/jH07dDQvx2g/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/jH07dDQvx2g/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/sZ2jsnoB-lzlMHol--g5jTkHmfE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "gcvhK7ukmek"
+   },
+   "snippet": {
+    "publishedAt": "2012-03-16T19:58:28.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Maverick Rising: 2-11 'Let There Be Light' (Dr. Light) by Cerrax [Mega Man X1 & X2 / OC ReMix]",
+    "description": "Mega Man X: Maverick Rising - FREE at http://maverick.ocremix.org !!! ReMixer: Cerrax FREE at http://ocremix.org • SHIRTS & HOODIES! http://ocremix.org/store.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/gcvhK7ukmek/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/gcvhK7ukmek/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/gcvhK7ukmek/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/yah7HY2LX4gyFepsaQ6kfe0hBeE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "agt2NgxSo5g"
+   },
+   "snippet": {
+    "publishedAt": "2010-11-22T18:57:59.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "The Root of All Evil: 03 A Village's Welcome (Village) [Teen Agent / OC ReMix]",
+    "description": "ReMixer: Vampire Hunter Dan Teen Agent: The Root of All Evil - http://teenagent.ocremix.org FREE at http://ocremix.org • SHIRTS & HOODIES! http://ocremix.org ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/agt2NgxSo5g/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/agt2NgxSo5g/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/agt2NgxSo5g/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/yLLUlhQrhrJi7mzg2N5hMo8136s\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "hal0nZnpdx0"
+   },
+   "snippet": {
+    "publishedAt": "2009-05-19T23:53:43.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #177: Moon Patrol 'Shanecappella Vox Beat' [BGM] by Shanecapella",
+    "description": "DOWNLOAD IT FREE at OC ReMix! http://ocremix.org/remix/OCR00177/ ReMixer: Shanecapella FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/hal0nZnpdx0/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/hal0nZnpdx0/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/hal0nZnpdx0/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/QG3tVWxAd4Ev7yc7CkyWLZtNZAg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "M3oD99Bscwk"
+   },
+   "snippet": {
+    "publishedAt": "2011-08-25T01:33:59.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #2286: Super Mario Galaxy 'Fill Me Up with Snacky Happiness' [Rosalina 3] by PROTO·DOME",
+    "description": "DOWNLOAD IT FREE at OC ReMix! http://ocremix.org/remix/OCR02286/ ReMixer: PROTO·DOME FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/M3oD99Bscwk/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/M3oD99Bscwk/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/M3oD99Bscwk/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/9lz-zCy3cIuDw7mWFcXHmin-tpY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "gLrRWPGIdVA"
+   },
+   "snippet": {
+    "publishedAt": "2010-03-19T11:45:54.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Serious Monkey Business: 1-10 It's a Jungle Out There! (Primal Rave) [DKC2 / OC ReMix]",
+    "description": "ReMixer: Joshua Morse Donkey Kong Country 2: Serious Monkey Business - http://dkc2.ocremix.org FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/gLrRWPGIdVA/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/gLrRWPGIdVA/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/gLrRWPGIdVA/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/RiNEfcQD6VHAh0ivDPEJtqfLp5E\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "UxgOprba7g8"
+   },
+   "snippet": {
+    "publishedAt": "2009-07-28T00:01:35.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Echoes of Betrayal, Light of Redemption: 1-13 Edward's Dream Quartet (Final Fantasy IV / OC ReMix)",
+    "description": "FREELY available at http://ff4.ocremix.org Final Fantasy IV: Echoes of Betrayal, Light of Redemption More FREE video game music ReMixes at ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/UxgOprba7g8/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/UxgOprba7g8/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/UxgOprba7g8/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/9W1JIObcIX_JdvbWkNMg7HKL06c\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "iQeCiUKF2rc"
+   },
+   "snippet": {
+    "publishedAt": "2010-03-19T11:11:01.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Serious Monkey Business: 2-08 Backwards Room (Run, Rambi! Run!) [Donkey Kong Country 2 / OC ReMix]",
+    "description": "ReMixer: zyko Donkey Kong Country 2: Serious Monkey Business - http://dkc2.ocremix.org FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/iQeCiUKF2rc/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/iQeCiUKF2rc/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/iQeCiUKF2rc/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/B5ksmyfelXlEhk-xq8tkf3eZAdk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "HLlHbMSZIhw"
+   },
+   "snippet": {
+    "publishedAt": "2011-09-02T19:00:38.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Threshold of a Dream: 09 'Spare Key' (Key Cavern) by Sound Test [Link's Awakening / OC ReMix]",
+    "description": "Legend of Zelda: Link's Awakening: Threshold of a Dream - http://threshold.ocremix.org ReMixer: Sound Test FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/HLlHbMSZIhw/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/HLlHbMSZIhw/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/HLlHbMSZIhw/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/fpFpFOyzLubLsgw2SptM3sKQiQ8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "lgQ-uEbGceY"
+   },
+   "snippet": {
+    "publishedAt": "2010-11-22T02:03:50.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Teen Agent: The Root of All Evil, An OverClocked ReMix Album (Trailer)",
+    "description": "Teen Agent: The Root of All Evil - FREE at http://teenagent.ocremix.org ! Director: Brandon Strader FREE at http://ocremix.org • SHIRTS & HOODIES! http://ocr...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/lgQ-uEbGceY/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/lgQ-uEbGceY/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/lgQ-uEbGceY/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/HjIrWvISQovYhSNu0Hrzj8_-1y4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "PqY33c9yzsI"
+   },
+   "snippet": {
+    "publishedAt": "2011-09-02T18:35:20.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Threshold of a Dream: B2 'I Don't Know Who I Am Anymore' (Name) by sloopygoop [OC ReMix]",
+    "description": "Legend of Zelda: Link's Awakening: Threshold of a Dream - http://threshold.ocremix.org ReMixer: sloopygoop FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/PqY33c9yzsI/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/PqY33c9yzsI/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/PqY33c9yzsI/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/KvRWgNeEun0TLjGBTP9RoozFN-U\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Z3vdv3JGiBY"
+   },
+   "snippet": {
+    "publishedAt": "2011-09-02T18:25:46.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Threshold of a Dream: B6 'Eagle Tower' (Eagle's Tower) by Miku [Link's Awakening / OC ReMix]",
+    "description": "Legend of Zelda: Link's Awakening: Threshold of a Dream - http://threshold.ocremix.org ReMixer: Miku FREE at http://ocremix.org • SHIRTS & HOODIES! http://oc ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Z3vdv3JGiBY/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Z3vdv3JGiBY/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Z3vdv3JGiBY/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/ezbCmBjWD9rjMn5sV4YTUO1w0Mg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Gzh5sVTDeWM"
+   },
+   "snippet": {
+    "publishedAt": "2009-07-27T22:30:23.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Echoes of Betrayal, Light of Redemption: 3-11 Finale Part One ~ Éminence Grise (OC ReMix)",
+    "description": "FREELY available at http://ff4.ocremix.org Final Fantasy IV: Echoes of Betrayal, Light of Redemption More FREE video game music ReMixes at ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Gzh5sVTDeWM/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Gzh5sVTDeWM/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Gzh5sVTDeWM/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/0xk-Dywx6yt7nsKMkFQRyKXgt0A\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "oP2AvUt7xYg"
+   },
+   "snippet": {
+    "publishedAt": "2010-03-09T23:46:31.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Kong in Concert: 1-09 Boiling Point (Bad Boss Boogie) [Donkey Kong Country / OC ReMix]",
+    "description": "ReMixers: Red Omen, Protricity Donkey Kong Country: Kong in Concert: http://dkcproject.ocremix.org FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/oP2AvUt7xYg/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/oP2AvUt7xYg/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/oP2AvUt7xYg/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/HNDZbqwlv-3DXzxW7OwGF1AKQCM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "CM4XnPhcWsA"
+   },
+   "snippet": {
+    "publishedAt": "2010-03-10T00:18:13.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Kong in Concert: 1-01 Godiva in the Desert (Theme) [Donkey Kong Country / OC ReMix]",
+    "description": "ReMixer: Israfel Donkey Kong Country: Kong in Concert: http://dkcproject.ocremix.org FREE at http://ocremix.org • SHIRTS & HOODIES! http://ocremix.org/store/...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/CM4XnPhcWsA/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/CM4XnPhcWsA/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/CM4XnPhcWsA/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/2rExTQZP6gwImJHUhTslgzmT0l8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "UDS5B3SPpZ8"
+   },
+   "snippet": {
+    "publishedAt": "2010-03-19T11:14:47.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Serious Monkey Business: 2-06 Club Klubba (Klubba's Reveille) [Donkey Kong Country 2 / OC ReMix]",
+    "description": "ReMixer: Diggi Dis Donkey Kong Country 2: Serious Monkey Business - http://dkc2.ocremix.org FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/UDS5B3SPpZ8/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/UDS5B3SPpZ8/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/UDS5B3SPpZ8/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/GeE2rnhfXKvbLqs8nNrM1RTjHt0\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "ylY_lbt5i9c"
+   },
+   "snippet": {
+    "publishedAt": "2009-07-27T23:05:55.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Echoes of Betrayal, Light of Redemption: 2-17 Theme of Love for Guitar Duet (OC ReMix)",
+    "description": "FREELY available at http://ff4.ocremix.org Final Fantasy IV: Echoes of Betrayal, Light of Redemption More FREE video game music ReMixes at ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ylY_lbt5i9c/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ylY_lbt5i9c/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ylY_lbt5i9c/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/d7Jti64UoOXr29Xwm-b0d15Y0zs\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "9uj4P3IkkBA"
+   },
+   "snippet": {
+    "publishedAt": "2011-09-02T18:45:22.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Threshold of a Dream: 18 'The Vision of the Wind Fish' (Wind Fish) by Sound Test [OC ReMix]",
+    "description": "Legend of Zelda: Link's Awakening: Threshold of a Dream - http://threshold.ocremix.org ReMixer: Sound Test FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/9uj4P3IkkBA/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/9uj4P3IkkBA/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/9uj4P3IkkBA/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/Ki5TLHeDVJ8eXLp6DY06pYhxVKc\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "YSUI0hNdRxo"
+   },
+   "snippet": {
+    "publishedAt": "2009-06-04T11:20:32.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #22: Legend of Zelda 'Rabbit Joint Cover' [Title] by The Rabbit Joint",
+    "description": "ReMixers: The Rabbit Joint (Joe Pleiman & Jesse Spence) http://ocremix.org/remix/OCR00022/ FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/YSUI0hNdRxo/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/YSUI0hNdRxo/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/YSUI0hNdRxo/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/aFu5Cp2KR3XjvAL94ZC_5yKKeuI\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "8MDhdP94TKc"
+   },
+   "snippet": {
+    "publishedAt": "2009-07-05T23:01:37.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "OC ReMix #1441: Final Fantasy X 'White Skies (Club Mix)' [People of the North Pole] by bLiNd",
+    "description": "DOWNLOAD IT FREE at OC ReMix! http://ocremix.org/remix/OCR01441/ ReMixer: bLiNd FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/8MDhdP94TKc/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/8MDhdP94TKc/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/8MDhdP94TKc/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/W2mudTwHRDGmxAbSP6Bvdq5yvvE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "PoEkXfKfI84"
+   },
+   "snippet": {
+    "publishedAt": "2010-11-22T18:44:13.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "The Root of All Evil: B1 Mark Hopper (Intro C) [Teen Agent / OC ReMix]",
+    "description": "ReMixers: bill cakes, Brandon Strader Teen Agent: The Root of All Evil - http://teenagent.ocremix.org FREE at http://ocremix.org • SHIRTS & HOODIES! http://o...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/PoEkXfKfI84/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/PoEkXfKfI84/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/PoEkXfKfI84/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/JGCbPXUP6P1V_nOnzMJmPz7Q2_g\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "huSloUm44K0"
+   },
+   "snippet": {
+    "publishedAt": "2011-09-02T19:05:37.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Threshold of a Dream: 04 'Oceanfront View' (House) by Iggy Koopa [Link's Awakening / OC ReMix]",
+    "description": "Legend of Zelda: Link's Awakening: Threshold of a Dream - http://threshold.ocremix.org ReMixer: Iggy Koopa FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/huSloUm44K0/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/huSloUm44K0/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/huSloUm44K0/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/Tsdqn1dO9td9W39MwAS-lmuBflM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "53miRYYlsAc"
+   },
+   "snippet": {
+    "publishedAt": "2010-12-01T06:36:12.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "The Root of All Evil: 01 i.n.t.r.o. (Intro A) [Teen Agent / OC ReMix]",
+    "description": "ReMixer: audio fidelity Teen Agent: The Root of All Evil - http://teenagent.ocremix.org FREE at http://ocremix.org • SHIRTS & HOODIES! http://ocremix.org/sto...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/53miRYYlsAc/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/53miRYYlsAc/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/53miRYYlsAc/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/joLrLZrNpLl9dXv5iYnigkycg9I\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "2bxgzko6af8"
+   },
+   "snippet": {
+    "publishedAt": "2009-09-28T23:20:07.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Project Chaos: 2-04 Beneath the Ashes (Sonic 3 & Knuckles / OC ReMix)",
+    "description": "FREELY available at http://s3k.ocremix.org Sonic 3 & Knuckles: Project Chaos More FREE video game music ReMixes at http://www.ocremix.org * ReMixer(s): ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/2bxgzko6af8/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/2bxgzko6af8/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/2bxgzko6af8/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/jf4SjPPqofvseGSeMdWuvF2tM3s\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Y925dA72sEQ"
+   },
+   "snippet": {
+    "publishedAt": "2009-07-28T00:05:35.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Echoes of Betrayal, Light of Redemption: 1-12 The Skies Hold No Angels for Us (OC ReMix)",
+    "description": "FREELY available at http://ff4.ocremix.org Final Fantasy IV: Echoes of Betrayal, Light of Redemption More FREE video game music ReMixes at ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Y925dA72sEQ/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Y925dA72sEQ/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Y925dA72sEQ/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/Cxm8T5S5vPfc69lF63ydyD-Q05Q\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "QUdxHkEAuwY"
+   },
+   "snippet": {
+    "publishedAt": "2011-09-02T18:53:21.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Threshold of a Dream: 16 'The Feather's Reflection' (Eagle's Tower) by Rexy [OC ReMix]",
+    "description": "Legend of Zelda: Link's Awakening: Threshold of a Dream - http://threshold.ocremix.org ReMixer: Rexy FREE at http://ocremix.org • SHIRTS & HOODIES!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/QUdxHkEAuwY/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/QUdxHkEAuwY/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/QUdxHkEAuwY/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/WuP-V0L4DEprRXJ1itpP0yeFMQ4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "pP0nb5R3nwU"
+   },
+   "snippet": {
+    "publishedAt": "2010-03-15T07:46:44.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "Donkey Kong Country 2: Serious Monkey Business, An OverClocked ReMix Album (Trailer)",
+    "description": "Donkey Kong Country 2: Serious Monkey Business - FREE at http://dkc2.ocremix.org ! Directors: Geoffrey Taucer, Bahamut FREE at http://ocremix.org • SHIRTS ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/pP0nb5R3nwU/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/pP0nb5R3nwU/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/pP0nb5R3nwU/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ePFRUfYBkeQ2ncpP9OLHKB0fDw4/YPPPoGGqEYkZpH5ccDGos7XLWBk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "-3FkTGyw84I"
+   },
+   "snippet": {
+    "publishedAt": "2011-06-27T14:11:00.000Z",
+    "channelId": "UC8Wh7qpPGJm3K1eZ6DHjpKA",
+    "title": "NiGHTS: Lucid Dreaming, An OC ReMix Album (Trailer)",
+    "description": "NiGHTS: Lucid Dreaming - FREE at http://lucid.ocremix.org ! Director: Stevo Bortz (Level 99) FREE at http://ocremix.org • SHIRTS & HOODIES! http://ocremix.or...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/-3FkTGyw84I/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/-3FkTGyw84I/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/-3FkTGyw84I/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "ocremix",
+    "liveBroadcastContent": "none"
+   }
+  }
+ ]
+}

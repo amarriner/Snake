@@ -1,6 +1,7 @@
 var NUM_SNAKES = 4;
 var squares = [[]];                       // Grid of objects
 var numx, numy;
+var youtube;
 
 // Simple javascript "object" to store squares in the grid array
 function Square(xx, yy, red, green, blue) {
@@ -20,6 +21,22 @@ function shuffle(o){ //v1.0
 
 // Runs when the DOM is fully loaded
 $(document).ready(function() {
+    $.ajax({
+        url: 'js/youtube.json',
+        async: false,
+        success: function(data) {
+            youtube = data;
+        }
+    });
+    
+    $('audio').bind('timeupdate', function(){
+        if(this.currentTime >= 8){
+            if (! $('audio').get(0).paused) {
+                $('audio').get(0).pause();
+            }
+        }
+    });
+    
     timer = new Timer();
 });
 
@@ -34,7 +51,7 @@ var Timer = function() {
     self.seconds = 1;    // Elapsed seconds
     self.snakes = [];    // Array of snakes
     self.size = 10;      // Pixel size of grid squares
-    self.step = 100;     // Initial speed
+    self.step = 1;     // Initial speed
     
     // Determine number of squares in the grid based on window size (or viewport size, rather)
     // Potentially useful to handle resizing events, as well, though that's not implemented
@@ -89,6 +106,8 @@ var Timer = function() {
         }
         
         if (num_finished >= NUM_SNAKES) {
+            // $('audio').get(0).volume = .5;
+            // $('audio').get(0).play();
             clearInterval(self.interval);
         }
     }
